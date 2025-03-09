@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cutting-swift}",
+      "name": "Debug cutting-swift",
+      "program": "${workspaceFolder:cutting-swift}/.build/debug/cutting-swift",
+      "preLaunchTask": "swift: Build Debug cutting-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:cutting-swift}",
+      "name": "Release cutting-swift",
+      "program": "${workspaceFolder:cutting-swift}/.build/release/cutting-swift",
+      "preLaunchTask": "swift: Build Release cutting-swift"
+    }
+  ]
+}
